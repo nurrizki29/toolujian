@@ -17,7 +17,11 @@ import LoadingBar from 'react-top-loading-bar'
 import ProtectedRoutes from './components/ProtectedRoutes';
 import Signout from './pages/Signout';
 import NotFound from './pages/NotFound';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
+library.add(fab, faCheckSquare, faCoffee)
 class Header extends React.Component{
   render(){
     return <div>INI HEADER</div>

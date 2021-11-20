@@ -9,6 +9,8 @@ import axios from 'axios';
 import Cookies from 'universal-cookie';
 import {mahasiswa} from "../database/datainduk.json"
 import LoadingPage from '../components/LoadingPage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Login() {
     const cookies = new Cookies();
@@ -92,7 +94,7 @@ function Login() {
           </div>
           <div>
             <button type="submit" className="block w-full mt-8 bg-blue-500 p-2 rounded text-white font-bold hover:bg-blue-700">
-              Sign in
+              <FontAwesomeIcon icon={faSignInAlt} /> Sign in
             </button>
           </div>
         </form>

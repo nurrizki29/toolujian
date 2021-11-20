@@ -13,7 +13,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import {kelas, prodi} from "../database/datainduk.json"
 import {jadwal} from "../database/jadwal.json"
 import LoadingPage from '../components/LoadingPage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 
+library.add(fab, faCheckSquare, faCoffee)
 function Dashboard() {
     const cookies = new Cookies();
     //state user
@@ -117,7 +122,7 @@ function Dashboard() {
                 </div>
                 <div className="flex-shrink-0">
                     <button type="button" className="block w-full bg-red-400 p-2 text-sm sm:text-lg rounded-lg text-white font-bold hover:bg-red-500" onClick={logoutHanlder}>
-                    SIGN OUT
+                    <FontAwesomeIcon icon={faSignOutAlt} /> SIGN OUT
                     </button>
                 </div>
             </div>
@@ -128,7 +133,7 @@ function Dashboard() {
                     </button>
             </div>
             <div className='mb-6 text-center text-white'>
-            Made with ❤️ to simplify our life
+            Made with ❤️ to simplify your life
             <div className='text-text-white text-sm mt-2'>v.1.0.3</div>
         </div>
         </div>

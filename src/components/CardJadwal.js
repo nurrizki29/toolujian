@@ -4,6 +4,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {sesi} from "../database/datainduk.json"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCopy, faLink } from '@fortawesome/free-solid-svg-icons'
 
 export default function CardJadwal(props) {
     // onClick handler function for the copy button
@@ -59,13 +61,13 @@ export default function CardJadwal(props) {
                 <div class="flex-1 mb-2">
                     <CopyToClipboard text={penamaan} onCopy={handleCopyClick}>
                         <button type="button" className="text-sm sm:text-md block w-full bg-blue-600 p-2 rounded-lg text-white font-bold hover:bg-blue-500">
-                            <i class="far fa-copy"></i> Salin Nama LJU
+                        <FontAwesomeIcon icon={faCopy} /> Salin Nama LJU
                         </button>
                     </CopyToClipboard>
                 </div>
                 <div class="flex-1 ...">
                     <button type="button" className="text-sm sm:text-md block w-full bg-blue-400 p-2 rounded-lg text-white font-bold hover:bg-blue-500" onClick={() => keLinkLJU(linkLJU)}>
-                    Link LJU
+                    <FontAwesomeIcon icon={faLink} /> Link LJU
                     </button>
                 </div>
                     
