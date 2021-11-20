@@ -128,8 +128,8 @@ function Dashboard() {
                     </button>
             </div>
             <div className='mb-6 text-center text-white'>
-            Made with ❤️ to simplify our exam
-            <div className='text-text-white text-sm mt-2'>v.1.0.1</div>
+            Made with ❤️ to simplify our life
+            <div className='text-text-white text-sm mt-2'>v.1.0.3</div>
         </div>
         </div>
     )

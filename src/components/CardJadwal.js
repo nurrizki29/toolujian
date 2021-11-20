@@ -32,7 +32,7 @@ export default function CardJadwal(props) {
     return (<div>
         {
         props.dataJadwal.map((jadwal)=>{
-            let linkLJU = kelas.link+"?entry."+kelas['entry-nama']+"="+encodeURI(mhs.Nama)+"&entry."+kelas['entry-npm']+"="+mhs.NPM+"&entry."+kelas['entry-matkul']+"="+encodeURI(jadwal['Mata Kuliah'])
+            let linkLJU = kelas.link+"?entry."+kelas['entry-nama']+"="+encodeURI(mhs.nama)+"&entry."+kelas['entry-npm']+"="+mhs.npm+"&entry."+kelas['entry-matkul']+"="+encodeURI(jadwal.nama)
             if (kelas.link===undefined || kelas.link==""){
                 linkLJU = ""
             }

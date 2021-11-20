@@ -70,21 +70,7 @@ function Login() {
         }else{
           setValidation("Notfound")
         }      
-        //send data to server
-        await axios.get('http://localhost:5000/masuk/'+npm)
-        .then((response) => {
-            let data = response.nama
-            //set token on localStorage
-            localStorage.setItem('token', response.data.token);
-
-            fadeOut()
-        })
-        .catch((error) => {
-
-            //assign error to state "validation"
-            setValidation("notfound");
-            fadeOut()
-        })
+        fadeOut()
     };
     return (
         <div className="container mr-auto ml-auto">
@@ -111,8 +97,8 @@ function Login() {
           </div>
         </form>
         <div className='mt-8 text-center text-gray-700'>
-            Made with ❤️ to simplify our exam
-            <div className='text-gray-700 text-sm mt-2'>v.1.0.1</div>
+            Made with ❤️ to simplify your life
+            <div className='text-gray-700 text-sm mt-2'>v.1.0.3</div>
         </div>
       </div>{
 
