@@ -15,6 +15,7 @@ import Dashboard from './pages/Dashboard';
 import React, { useState } from 'react'
 import LoadingBar from 'react-top-loading-bar'
 import ProtectedRoutes from './components/ProtectedRoutes';
+import Signout from './pages/Signout';
 
 class Header extends React.Component{
   render(){
@@ -35,7 +36,7 @@ function App() {
       />
       <Switch>
         <Route exact path="/" component={Login} />
-        <Route exact path="/register" component={Register} />
+        <Route exact path="/signout" component={Signout} />
         <ProtectedRoutes exact path='/dashboard' component={Dashboard} />
       </Switch>
     </div>

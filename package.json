@@ -2,6 +2,7 @@
   "name": "first-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://toolujian.gabut.ga",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@emotion/react": "^11.5.0",

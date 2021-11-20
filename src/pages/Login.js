@@ -7,7 +7,7 @@ import { useHistory } from 'react-router';
 //import axios
 import axios from 'axios';
 import Cookies from 'universal-cookie';
-import {absen} from "../database/data.json";
+import {mahasiswa} from "../database/datainduk.json"
 import LoadingPage from '../components/LoadingPage';
 
 function Login() {
@@ -60,11 +60,11 @@ function Login() {
         e.preventDefault();
         await fadeIn()
 
-        let filtered = absen.filter(function(entry){
-          return entry.NPM === npm
+        let filtered = mahasiswa.filter(function(entry){
+          return entry.npm === npm
         })
         if (filtered.length > 0){
-          cookies.set('data', JSON.stringify(filtered[0]), { path: '/',maxAge:24*60*60 })
+          cookies.set('data', JSON.stringify(filtered[0]), { path: '/',maxAge:5*24*60*60 })
           //redirect to dashboard
           history.push('/dashboard');
         }else{
@@ -90,11 +90,11 @@ function Login() {
         <div className="container mr-auto ml-auto">
             <LoadingPage />
       <div className="relative p-4 sm:p-8 mx-5 sm:mx-auto max-w-2xl bg-gray-50 rounded-xl shadow-2x1 items-center sm:max-w-md">
-      <h2 className=' text-3xl font-bold mb-8 text-blue-500 text-center'>UTS KIT 5-05</h2>
-      
-        <form onSubmit={loginHandler}>
+      <h2 className=' text-3xl font-bold mb-2 text-blue-500 text-center'>UTS KIT</h2>
+      <div className="italic font-light font-sans text-center">Dapat digunakan oleh seluruh mahasiswa non-asrama 🎉 </div>
+        <form className="mt-4" onSubmit={loginHandler}>
           <div>
-            <label className='block mb-2 font-bold text-grey' htmlFor='npm'>NPM</label>
+            <label className='block mb-2 font-bold text-grey text-center' htmlFor='npm'>NPM</label>
             <input className={validation!==""?classNormal+classError:classNormal} id='npm' value={npm} onChange={(e) => setNPM(e.target.value)} placeholder="Masukkan NPM" type="number"></input>
             {
                 validation !== "" && (
@@ -105,14 +105,14 @@ function Login() {
             }
           </div>
           <div>
-            <button type="submit" className="block w-full mt-8 bg-blue-400 p-2 rounded text-white font-bold hover:bg-blue-600">
+            <button type="submit" className="block w-full mt-8 bg-blue-500 p-2 rounded text-white font-bold hover:bg-blue-700">
               Sign in
             </button>
           </div>
         </form>
         <div className='mt-8 text-center text-gray-700'>
             Made with ❤️ to simplify our exam
-            <div className='text-gray-700 text-sm mt-2'>v.1.0</div>
+            <div className='text-gray-700 text-sm mt-2'>v.1.0.1</div>
         </div>
       </div>{
 
