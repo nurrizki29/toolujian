@@ -1,0 +1,282 @@
+﻿{
+    "absen": [
+        {
+            "Absen": "1",
+            "Nama": "Benny Ambarita",
+            "NPM": "2301190496",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "2",
+            "Nama": "Christopher Theodore Emilio Lumban Tobing",
+            "NPM": "2301190408",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "3",
+            "Nama": "Dana Muhammad Marzuq Elbasit",
+            "NPM": "2301190434",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "4",
+            "Nama": "Dian Amanda Puspitorini",
+            "NPM": "2301190476",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "5",
+            "Nama": "Dinira Rexa Oktory H.R",
+            "NPM": "2301190468",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "6",
+            "Nama": "Ester Br. Manik",
+            "NPM": "2301190376",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "7",
+            "Nama": "Fatima Asahra",
+            "NPM": "2301190350",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "8",
+            "Nama": "Galih Margenta Setyawan",
+            "NPM": "2301190504",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "9",
+            "Nama": "Hanif Arifanto",
+            "NPM": "2301190378",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "10",
+            "Nama": "Hidayat Primadi",
+            "NPM": "2301190312",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "11",
+            "Nama": "Insan Panji Imawan",
+            "NPM": "2301190240",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "12",
+            "Nama": "Jeremia Gogo Lumban Tobing",
+            "NPM": "2301190320",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "13",
+            "Nama": "Joel Paskalis Sitinjak",
+            "NPM": "2301190304",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "14",
+            "Nama": "Kuncoro Aji Prakoso",
+            "NPM": "2301190345",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "15",
+            "Nama": "Maria Sola Gratcia Banjarnahor",
+            "NPM": "2301190197",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "16",
+            "Nama": "Mohammad Nur Rizki",
+            "NPM": "2301190198",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "17",
+            "Nama": "Mohammad Rafiqulakmal Reyhan Rahasheva",
+            "NPM": "2301190332",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "18",
+            "Nama": "Muhammad Bobby Mulya",
+            "NPM": "2301190587",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "19",
+            "Nama": "Niken Fuji Lestari",
+            "NPM": "2301190242",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "20",
+            "Nama": "Nur Almito Muslindra",
+            "NPM": "2301190577",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "21",
+            "Nama": "Parmenas Obaja Paguling",
+            "NPM": "2301190557",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "22",
+            "Nama": "Reihan Hasiholan",
+            "NPM": "2301190479",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "23",
+            "Nama": "Royan Muhammad Devi Prasetyo",
+            "NPM": "2301190338",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "24",
+            "Nama": "Sabilta Ayunda Putri",
+            "NPM": "2301190273",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "25",
+            "Nama": "Salamah Faizah",
+            "NPM": "2301190575",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "26",
+            "Nama": "Stanley Allbright Sitanggang",
+            "NPM": "2301190221",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "27",
+            "Nama": "Subur Rizki Wahyuni",
+            "NPM": "2301190473",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "28",
+            "Nama": "Via Sarsadilla",
+            "NPM": "2301190419",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "29",
+            "Nama": "Yosua Gito Samudra Simangunsong",
+            "NPM": "2301190299",
+            "Kelas": 5,
+            "Prodi": 1
+        },
+        {
+            "Absen": "30",
+            "Nama": "Zidni Hudan Said Purnomo",
+            "NPM": "2301190342",
+            "Kelas": 5,
+            "Prodi": 1
+        }
+    ],
+    "jadwal": [
+        {
+            "Sesi": "2",
+            "Tanggal": "2021-11-15",
+            "Mata Kuliah": "Penelitian Ilmu Sosial",
+            "Kode": "Penilsos"
+        },
+        {
+            "Sesi": "4",
+            "Tanggal": "2021-11-16",
+            "Mata Kuliah": "Komunikasi Publik",
+            "Kode": "Kompub"
+        },
+        {
+            "Sesi": "6",
+            "Tanggal": "2021-11-17",
+            "Mata Kuliah": "Akuntansi Keuangan Lanjutan",
+            "Kode": "AKL"
+        },
+        {
+            "Sesi": "8",
+            "Tanggal": "2021-11-18",
+            "Mata Kuliah": "Manajemen dan Proses Bisnis Wajib Pajak",
+            "Kode": "MPBWP"
+        },
+        {
+            "Sesi": "10",
+            "Tanggal": "2021-11-19",
+            "Mata Kuliah": "Akuntansi Perpajakan",
+            "Kode": "Akper"
+        },
+        {
+            "Sesi": "12",
+            "Tanggal": "2021-11-22",
+            "Mata Kuliah": "Statistika",
+            "Kode": "Stat"
+        },
+        {
+            "Sesi": "14",
+            "Tanggal": "2021-11-23",
+            "Mata Kuliah": "Lab Pajak Penghasilan Pot Put",
+            "Kode": "Potput"
+        },
+        {
+            "Sesi": "16",
+            "Tanggal": "2021-11-24",
+            "Mata Kuliah": "Penagihan dan Sengketa Pajak",
+            "Kode": "PenagSP"
+        }
+    ],
+    "prodi":[
+        {
+            "id": 1,
+            "nama": "D3 Pajak",
+            "kode": "d3pjk",
+            "warna": "#009578"
+        }
+    ],
+    "kelas":[
+        {
+            "id": 15,
+            "nama": "5-05",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSeodqbCxT53A7thXlOqf9McfZLCWfHpgx3c4EN8UiJu2rOpyQ/viewform",
+            "entry-nama": "1660571174",
+            "entry-npm": "1185921291",
+            "entry-matkul" : "377883442"
+        }
+    ]
+}
