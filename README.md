@@ -1,6 +1,7 @@
 <p align='center'>
-    [![codecov](https://codecov.io/gh/nurrizki29/toolujian/branch/master/graph/badge.svg)](https://codecov.io/gh/nurrizki29/toolujian)
-    ![Deploy](https://github.com/nurrizki29/toolujian/workflows/CI/CD/badge.svg)
+    <a href="https://github.com/nurrizki29/toolujian/actions/workflows/ci.yml/badge.svg">
+        <img src="https://github.com/nurrizki29/toolujian/actions/workflows/ci.yml/badge.svg"
+            alt="Deployment with CI/CD"></a>
 </p>
 
 # Getting Started with Create React App
