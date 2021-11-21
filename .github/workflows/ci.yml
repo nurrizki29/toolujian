@@ -50,7 +50,7 @@ jobs:
       with:
         switches: -avzr --delete
         path: .build
-        remote_path: /public_html/toolujian.gabut.ga
+        remote_path: /home/nurizweb/public_html/toolujian.gabut.ga
         remote_host: nuriz.web.id
         remote_user: nurizweb
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+        remote_key: ${{ secrets.KEY_SSH }}
