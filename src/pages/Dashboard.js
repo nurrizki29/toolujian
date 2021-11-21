@@ -16,7 +16,7 @@ import LoadingPage from '../components/LoadingPage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faExclamationTriangle, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faCheckSquare, faCoffee)
 function Dashboard() {
@@ -46,7 +46,7 @@ function Dashboard() {
         setLoading(false)
         document.getElementById("backdrop").classList.add("invisible")
         document.getElementById("backdrop").classList.remove("animate-fadeout")
-        }, 500);
+        }, 400);
     }
     //hook useEffect
     useEffect(() => {
@@ -133,7 +133,11 @@ function Dashboard() {
                 </div>
             </div>
             <CardJadwal dataJadwal={jadwalmhs[0].data} profilMahasiswa={profilMahasiswa} prodi={dataProdi[0]} dataKelas={dataKelas[0]}/>
-            <div className="text-center text-white font-medium mt-8 mb-2">
+            <div className="animate-pulse p-2 sm:p-4 m-3 mb-5 sm:mx-auto bg-white rounded-xl max-w-lg shadow-md flex items-center text-center font-medium text-sm italic mt-8 text-gray-800 space-x-4">
+                <FontAwesomeIcon icon={faExclamationTriangle} size="lg" color="orange"/>
+                Periksa kembali sebelum mengumpulkan LJU, kesalahan yang terjadi akibat penggunaan aplikasi ini bukan tanggung jawab Developer
+            </div>
+            <div className="text-center text-white font-medium mt-2 mb-2">
                 Ada kesalahan? <button type="button" className="inline bg-red-400 px-2 py-1 text-sm rounded-lg text-white font-bold hover:bg-red-500" onClick={reportError}>
                     Laporkan
                     </button>

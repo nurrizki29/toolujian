@@ -1,4 +1,4 @@
-name: CI/CD
+name: Deployment
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
     - name: Build
       run: CI=false npm run build
 
-    - name: 📂 Sync files
+    - name: Deploy
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ${{ secrets.REMOTE_HOST }}

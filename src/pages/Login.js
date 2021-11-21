@@ -34,9 +34,9 @@ function Login() {
         document.getElementById("backdrop").classList.add("animate-fadeout")
         setTimeout(() => {
         setLoading(false)
-        document.getElementById("backdrop").classList.add("invisible")
+        document.getElementById("backdrop").classList.add('invisible')
         document.getElementById("backdrop").classList.remove("animate-fadeout")
-        }, 500);
+        }, 400);
     }
     //define history
     const history = useHistory();
@@ -59,9 +59,9 @@ function Login() {
     const classNormal = 'text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none '
     const classError = 'border-red-500'
     const loginHandler = async (e) => {
+        document.getElementById("btnLogin").disabled = true
         e.preventDefault();
         await fadeIn()
-
         let filtered = mahasiswa.filter(function(entry){
           return entry.npm === npm
         })
@@ -70,8 +70,9 @@ function Login() {
           //redirect to dashboard
           history.push('/dashboard');
         }else{
+          document.getElementById("btnLogin").disabled = false  
           setValidation("Notfound")
-        }      
+        }    
         fadeOut()
     };
     return (
@@ -93,7 +94,7 @@ function Login() {
             }
           </div>
           <div>
-            <button type="submit" className="block w-full mt-8 bg-blue-500 p-2 rounded text-white font-bold hover:bg-blue-700">
+            <button type="submit" className="block w-full mt-8 bg-blue-500 p-2 rounded text-white font-bold hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed" id="btnLogin">
               <FontAwesomeIcon icon={faSignInAlt} /> Sign in
             </button>
           </div>
