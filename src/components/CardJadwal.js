@@ -60,13 +60,13 @@ export default function CardJadwal(props) {
                 <div className="flex-shrink-0 w-22 text-right flex flex-col">
                 <div class="flex-1 mb-2">
                     <CopyToClipboard text={penamaan} onCopy={handleCopyClick}>
-                        <button type="button" className="text-sm sm:text-md block w-full bg-blue-600 p-2 rounded-lg text-white font-bold hover:bg-blue-500">
+                        <button type="button" className="text-xs sm:text-md block w-full bg-blue-600 p-2 rounded-lg text-white font-bold hover:bg-blue-500">
                         <FontAwesomeIcon icon={faCopy} /> Penamaan LJU
                         </button>
                     </CopyToClipboard>
                 </div>
                 <div class="flex-1 ...">
-                    <button type="button" className="text-sm sm:text-md block w-full bg-blue-400 p-2 rounded-lg text-white font-bold hover:bg-blue-500" onClick={() => keLinkLJU(linkLJU)}>
+                    <button type="button" className="text-xs sm:text-md block w-full bg-blue-400 p-2 rounded-lg text-white font-bold hover:bg-blue-500" onClick={() => keLinkLJU(linkLJU)}>
                     <FontAwesomeIcon icon={faLink} /> Link LJU
                     </button>
                 </div>
