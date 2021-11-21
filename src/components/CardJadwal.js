@@ -38,6 +38,11 @@ export default function CardJadwal(props) {
             if (kelas.link===undefined || kelas.link==""){
                 linkLJU = ""
             }
+            let classBtnLink = "text-xs sm:text-md block w-full bg-blue-400 p-2 rounded-lg text-white font-bold hover:bg-blue-500"
+            if (kelas['entry-nama']===undefined ){
+                classBtnLink = "text-xs sm:text-md block w-full bg-yellow-400 p-2 rounded-lg text-white font-bold hover:bg-yellow-500"
+                linkLJU = kelas.link
+            }
             let namaKelas = kelas.semester.toString()+"-"+("0"+kelas['kelas'].toString()).slice(-2)
             let penamaan = "LJU_"+("0"+jadwal.sesi).slice(-2)+"_"+prodi.kode+"_"+namaKelas+"_"+jadwal.kode+"_"+("0"+mhs.absen).slice(-2)+"_"+mhs.nama+"_"+mhs.npm
             let sesiMatkul = sesi.filter(function(list){
@@ -66,7 +71,7 @@ export default function CardJadwal(props) {
                     </CopyToClipboard>
                 </div>
                 <div class="flex-1 ...">
-                    <button type="button" className="text-xs sm:text-md block w-full bg-blue-400 p-2 rounded-lg text-white font-bold hover:bg-blue-500" onClick={() => keLinkLJU(linkLJU)}>
+                    <button type="button" className={classBtnLink} onClick={() => keLinkLJU(linkLJU)}>
                     <FontAwesomeIcon icon={faLink} /> Link LJU
                     </button>
                 </div>
