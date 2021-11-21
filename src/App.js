@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 //import react router dom
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 //import component Register
 import Register from './pages/Register';
@@ -34,17 +34,14 @@ function App() {
 
   return (
     <div>
-      <LoadingBar
-        color='#f11946'
-        progress={progress}
-        onLoaderFinished={() => setProgress(0)}
-      />
-      <Switch>
-        <Route exact path="/" component={Login} />
-        <Route exact path="/signout" component={Signout} />
-        <ProtectedRoutes exact path='/dashboard' component={Dashboard} />
-        <Route component={NotFound}/>
-      </Switch>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route exact path="/signout" component={Signout} />
+          <ProtectedRoutes exact path='/dashboard' component={Dashboard} />
+          <Route component={NotFound}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
