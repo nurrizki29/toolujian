@@ -58,3 +58,4 @@ jobs:
         username: admin@nuriz.web.id
         password: 291512Kiki
         local-dir: ./build
+        server-dir: /public_html/toolujian.gabut.ga
