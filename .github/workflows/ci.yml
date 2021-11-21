@@ -54,8 +54,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp.nuriz.web.id
-        username: admin@nuriz.web.id
-        password: 291512Kiki
+        server: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_KEY }}
         local-dir: ./build/
-        server-dir: /public_html/toolujian.gabut.ga/
+        server-dir: ${{ secrets.REMOTE_PATH }}

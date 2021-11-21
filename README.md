@@ -1,5 +1,8 @@
-[![codecov](https://codecov.io/gh/nurrizki29/toolujian/branch/master/graph/badge.svg)](https://codecov.io/gh/nurrizki29/toolujian)
-![CI/CD](https://github.com/nurrizki29/toolujian/workflows/CI/CD/badge.svg)
+<p align='center'>
+    [![codecov](https://codecov.io/gh/nurrizki29/toolujian/branch/master/graph/badge.svg)](https://codecov.io/gh/nurrizki29/toolujian)
+    ![Deploy](https://github.com/nurrizki29/toolujian/workflows/CI/CD/badge.svg)
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

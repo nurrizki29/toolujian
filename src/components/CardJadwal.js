@@ -49,11 +49,11 @@ export default function CardJadwal(props) {
                     <div className="text-md sm:text-2xl font-medium text-black">{jadwal.nama}</div>
                     <p className=" text-gray-500 text-sm sm:text-md">{tgl}</p>
                     <div className="flex text-gray-500 text-sm sm:text-md">
-                        <div className="flex-shrink-0 mr-4">
-                            Jam : {sesiMatkul.jam} WIB
+                        <div className="flex-auto sm:flex-none sm:w-40 mr-2">
+                            Jam <span className="whitespace-nowrap">{sesiMatkul.jam} WIB</span>
                         </div>
-                        <div className="flex-1 ...">
-                            Sesi : {jadwal.sesi}
+                        <div className="flex-auto ...">
+                            Sesi {jadwal.sesi}
                         </div>
                     </div>
                 </div>
