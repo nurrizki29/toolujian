@@ -51,12 +51,10 @@ jobs:
     - name: Build
       run: CI=false npm run build
 
-    - name: rsync deployments
-      uses: burnett01/rsync-deployments@5.1
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        switches: -avzr --delete
-        path: .build
-        remote_path: /home/nurizweb/public_html/toolujian.gabut.ga
-        remote_host: 103.28.53.179
-        remote_user: nurizweb
-        remote_key: ${{ secrets.KEY_SSH }}
+        server: ftp.nuriz.web.id
+        username: admin@nuriz.web.id
+        password: 291512Kiki
+        local-dir: ./build
