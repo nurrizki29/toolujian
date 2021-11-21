@@ -1,4 +1,4 @@
-<p style="text-align:center">
+<p align="center">
     <a href="https://toolujian.gabut.ga">
         <img src="https://github.com/nurrizki29/toolujian/actions/workflows/ci.yml/badge.svg" alt="Deployment With CI/CD">
     </a>
