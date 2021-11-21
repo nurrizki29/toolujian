@@ -45,13 +45,12 @@ jobs:
     - name: Build
       run: CI=false npm run build
 
-    - name: Deploy to Staging server
-      uses: easingthemes/ssh-deploy@main
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
-        ARGS: "-rltgoDzvO"
-        SOURCE: "./build"
-        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-        REMOTE_USER: ${{ secrets.REMOTE_USER }}
-        TARGET: ${{ secrets.REMOTE_TARGET }}
-        EXCLUDE: "/dist/, /node_modules/"
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@5.1
+      with:
+        switches: -avzr --delete
+        path: .build
+        remote_path: /public_html/toolujian.gabut.ga
+        remote_host: nuriz.web.id
+        remote_user: nurizweb
+        remote_key: ${{ secrets.DEPLOY_KEY }}
