@@ -45,14 +45,13 @@ jobs:
     - name: Build
       run: CI=false npm run build
 
-    - name: Deploy
-      run: |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/${repository}
-        CI=false npm run deploy
+    - name: Deploy to Staging server
+      uses: easingthemes/ssh-deploy@main
       env:
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-        repository: ${{ github.repository }}
+        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+        ARGS: "-rltgoDzvO"
+        SOURCE: "./build"
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        TARGET: ${{ secrets.REMOTE_TARGET }}
+        EXCLUDE: "/dist/, /node_modules/"
