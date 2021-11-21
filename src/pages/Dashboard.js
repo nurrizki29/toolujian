@@ -143,7 +143,7 @@ function Dashboard() {
                     </button>
             </div>
             <div className='mb-6 text-center text-white'>
-            Made with ❤️ to simplify your life
+            Made with ❤️ to help make your life easier
             <div className='text-text-white text-sm mt-2'>v.1.0.3</div>
         </div>
         </div>

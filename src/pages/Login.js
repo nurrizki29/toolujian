@@ -100,7 +100,7 @@ function Login() {
           </div>
         </form>
         <div className='mt-8 text-center text-gray-700'>
-            Made with ❤️ to simplify your life
+            Made with ❤️ to help make your life easier
             <div className='text-gray-700 text-sm mt-2'>v.1.0.3</div>
         </div>
       </div>{
