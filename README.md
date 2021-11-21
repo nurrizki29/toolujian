@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/<OWNER>/<REPOSITORY>/branch/master/graph/badge.svg)](https://codecov.io/gh/<OWNER>/<REPOSITORY>)
+[![codecov](https://codecov.io/gh/nurrizki29/toolujian/branch/master/graph/badge.svg)](https://codecov.io/gh/<OWNER>/<REPOSITORY>)
 ![CI/CD](https://github.com/nurrizki29/toolujian/workflows/CI/CD/badge.svg)
 # Getting Started with Create React App
 
