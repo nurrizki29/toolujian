@@ -57,11 +57,11 @@ export default function CardJadwal(props) {
                         </div>
                     </div>
                 </div>
-                <div className="flex-shrink-0 w-25 text-right flex flex-col">
+                <div className="flex-shrink-0 w-22 text-right flex flex-col">
                 <div class="flex-1 mb-2">
                     <CopyToClipboard text={penamaan} onCopy={handleCopyClick}>
                         <button type="button" className="text-sm sm:text-md block w-full bg-blue-600 p-2 rounded-lg text-white font-bold hover:bg-blue-500">
-                        <FontAwesomeIcon icon={faCopy} /> Salin Nama LJU
+                        <FontAwesomeIcon icon={faCopy} /> Penamaan LJU
                         </button>
                     </CopyToClipboard>
                 </div>

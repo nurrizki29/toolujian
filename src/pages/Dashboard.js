@@ -110,20 +110,26 @@ function Dashboard() {
                 </div>
                 <div className="flex-grow">
                     <div className="text-lg sm:text-2xl leading-5 font-medium text-black">{profilMahasiswa.nama}</div>
-                    <p className="text-md sm:text-lg text-gray-500">{dataProdi[0].nama}<br/>NPM : {profilMahasiswa.npm}</p>
-                    <div className="text-md sm:text-lg flex text-gray-500">
-                        <div className="flex-1">
+                    <div className="flex justify-between  items-center">
+                        <div className="flex-grow-0 leading-4 text-sm sm:text-lg text-gray-500">
+                            <p className="mt-1">{dataProdi[0].nama}</p>
+                            <p className="mt-1">NPM. {profilMahasiswa.npm}</p>
+                        </div>
+                        <div className="flex-shrink-0">
+                            <button type="button" className="block w-full bg-red-400 p-2 text-sm sm:text-lg rounded-lg text-white font-bold hover:bg-red-500" onClick={logoutHanlder}>
+                                <FontAwesomeIcon icon={faSignOutAlt} /> SIGN OUT
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div className="text-sm sm:text-lg flex text-gray-500">
+                        <div className="flex-none">
                             Kelas <br/><b>{dataKelas[0].semester.toString()+"-"+("0"+dataKelas[0].kelas.toString()).slice(-2)}</b>
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-none ml-8 text-center">
                             No. Absen <br/><b>{profilMahasiswa.absen}</b>
                         </div>
                     </div>
-                </div>
-                <div className="flex-shrink-0">
-                    <button type="button" className="block w-full bg-red-400 p-2 text-sm sm:text-lg rounded-lg text-white font-bold hover:bg-red-500" onClick={logoutHanlder}>
-                    <FontAwesomeIcon icon={faSignOutAlt} /> SIGN OUT
-                    </button>
                 </div>
             </div>
             <CardJadwal dataJadwal={jadwalmhs[0].data} profilMahasiswa={profilMahasiswa} prodi={dataProdi[0]} dataKelas={dataKelas[0]}/>

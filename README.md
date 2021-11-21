@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/<OWNER>/<REPOSITORY>/branch/master/graph/badge.svg)](https://codecov.io/gh/<OWNER>/<REPOSITORY>)
+![CI/CD](https://github.com/nurrizki29/toolujian/workflows/CI/CD/badge.svg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
