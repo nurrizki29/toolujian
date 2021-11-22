@@ -133,7 +133,7 @@ function Dashboard() {
                 </div>
             </div>
             <CardJadwal dataJadwal={jadwalmhs[0].data} profilMahasiswa={profilMahasiswa} prodi={dataProdi[0]} dataKelas={dataKelas[0]}/>
-            <div className="animate-pulse p-2 sm:p-4 m-3 mb-5 sm:mx-auto bg-white rounded-xl max-w-lg shadow-md flex items-center text-center font-medium text-sm italic mt-8 text-gray-800 space-x-4">
+            <div className="animate-pulse p-2 sm:p-4 mx-4 m-3 mb-5 sm:mx-auto bg-white rounded-xl max-w-lg shadow-md flex items-center text-center font-medium text-sm italic mt-8 text-gray-800 space-x-4">
                 <FontAwesomeIcon icon={faExclamationTriangle} size="lg" color="orange"/>
                 Periksa kembali sebelum mengumpulkan LJU, kesalahan yang terjadi akibat penggunaan aplikasi ini bukan tanggung jawab Developer
             </div>
@@ -144,7 +144,7 @@ function Dashboard() {
             </div>
             <div className='mb-6 text-center text-white'>
             Made with ❤️ to help make your life easier
-            <div className='text-text-white text-sm mt-2'>v.1.0.3</div>
+            <div className='text-text-white text-sm mt-2'>v.1.0.4</div>
         </div>
         </div>
     )

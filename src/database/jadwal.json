@@ -284,42 +284,42 @@
                 {
                     "nama": "Penelitian Ilmu Sosial",
                     "kode": "Penilsos",
-                    "sesi": "6"
+                    "sesi": "2"
                 },
                 {
                     "nama": "Komunikasi Publik",
                     "kode": "Kompub",
-                    "sesi": "8"
+                    "sesi": "4"
                 },
                 {
                     "nama": "Akuntansi Keuangan Lanjutan",
                     "kode": "AKL",
-                    "sesi": "10"
+                    "sesi": "6"
                 },
                 {
                     "nama": "Manajemen dan Proses Bisnis Wajib Pajak",
                     "kode": "MPBWP",
-                    "sesi": "12"
+                    "sesi": "8"
                 },
                 {
                     "nama": "Akuntansi Perpajakan",
                     "kode": "Akper",
-                    "sesi": "14"
+                    "sesi": "10"
                 },
                 {
                     "nama": "Statistika",
                     "kode": "Stat",
-                    "sesi": "16"
+                    "sesi": "12"
                 },
                 {
                     "nama": "Lab Pajak Penghasilan Pot Put",
                     "kode": "Potput",
-                    "sesi": "18"
+                    "sesi": "14"
                 },
                 {
                     "nama": "Penagihan dan Sengketa Pajak",
                     "kode": "PenagSP",
-                    "sesi": "20"
+                    "sesi": "16"
                 }
             ]
         },{
