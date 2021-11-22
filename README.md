@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://toolujian.gabut.ga">
+    <a href="https://toolujian.gabut.ga?utm_source=github_badge">
         <img src="https://github.com/nurrizki29/toolujian/actions/workflows/ci.yml/badge.svg" alt="Deployment With CI/CD">
     </a>
     <a href="https://github.com/nurrizki29/toolujian/blob/master/LICENSE.md">
