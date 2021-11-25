@@ -12,5 +12,5 @@
 
 
 <br>
-Aplikasi ini dibuat untuk mempermudah dalam memberikan nama file LJU saat akan mengumpulkan LJU. Tersedia juga Link Pengumpulan LJU otomatis yang sudah berisi nama, NPM, dan mata kuliah
+Aplikasi ini dibuat untuk mempermudah dalam memberikan nama file LJU saat akan mengumpulkan LJU. Tersedia juga Link Pengumpulan LJU otomatis yang sudah berisi nama, NPM, dan mata kuliah.
 </p>
