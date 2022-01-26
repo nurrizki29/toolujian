@@ -60,7 +60,7 @@ function Dashboard() {
         history.push('/');
     };
     const reportError = () =>{
-        window.open("https://wa.me/6281232358986?text=Nuriz,ini ada error nih")
+        window.open("https://wa.me/6281232358986?text=Nuriz,ini ada yang salah nih")
     }
     const generateAvatar = (
         text,
@@ -144,7 +144,7 @@ function Dashboard() {
             </div>
             <div className='mb-6 text-center text-white'>
             Made with ❤️ to help make your life easier
-            <div className='text-text-white text-sm mt-2'>v.1.0.4</div>
+            <div className='text-text-white text-sm mt-2'>v.1.0.5</div>
         </div>
         </div>
     )

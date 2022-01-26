@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://toolujian.gabut.ga",
+  "license": "GPL-3.0-or-later",
+  "author": {
+    "name": "Mohammad Nur Rizki",
+    "email": "mnurrizki25@gmail.com"
+  },
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@emotion/react": "^11.5.0",
