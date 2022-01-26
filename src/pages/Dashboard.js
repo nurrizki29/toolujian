@@ -17,6 +17,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faExclamationTriangle, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 library.add(fab, faCheckSquare, faCoffee)
 function Dashboard() {
@@ -26,7 +28,7 @@ function Dashboard() {
 
     //define history
     const history = useHistory();
-
+    const MySwal = withReactContent(Swal)
     //token
     const token = localStorage.getItem("data");
     const [getLoading, setLoading] = useState(true);
@@ -46,7 +48,13 @@ function Dashboard() {
         setLoading(false)
         document.getElementById("backdrop").classList.add("invisible")
         document.getElementById("backdrop").classList.remove("animate-fadeout")
+        MySwal.fire({
+            icon:"warning",
+            title:"Peringatan!!!",
+            text:"Periksa kembali sebelum mengumpulkan LJU, kesalahan yang terjadi akibat penggunaan aplikasi ini bukan tanggung jawab Developer"
+        })
         }, 400);
+
     }
     //hook useEffect
     useEffect(() => {

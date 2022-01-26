@@ -92,11 +92,11 @@ function Login() {
             <label className='block mb-2 font-bold text-grey text-center' htmlFor='npm'>NPM</label>
             <input className={validation!==""?classNormal+classError:classNormal} id='npm' value={npm} onChange={(e) => setNPM(e.target.value)} placeholder="Masukkan NPM" type="number"></input>
             {
-                validation !== "" && (
-                    <div className="text-red-500 italic font-medium">
-                        Data tidak ditemukan
-                    </div>
-                )
+              validation !== "" && (
+                <div className="text-red-500 italic font-medium">
+                  Data tidak ditemukan
+                </div>
+              )
             }
           </div>
           <ReCAPTCHA
