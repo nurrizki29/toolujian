@@ -1,6 +1,6 @@
 {
   "name": "first-app",
-  "version": "0.1.0",
+  "version": "1.0.4",
   "private": true,
   "homepage": "https://toolujian.gabut.ga",
   "license": "GPL-3.0-or-later",
@@ -48,7 +48,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "release": "standard-version",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release-beta": "npm run release -- --prerelease beta && git push github master\"",
+    "release-patch": "npm run release -- --release-as patch && git push github master\"",
+    "release-minor": "npm run release -- --release-as minor && git push github master\"",
+    "release-major": "npm run release -- --release-as major && git push github master\""
   },
   "eslintConfig": {
     "extends": [

@@ -12,6 +12,7 @@ import LoadingPage from '../components/LoadingPage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import ReCAPTCHA from "react-google-recaptcha";
+import {version} from "../../package.json";
 
 function Login() {
     const recaptchaRef = React.useRef();
@@ -113,7 +114,7 @@ function Login() {
         </form>
         <div className='mt-4 text-center text-gray-700'>
             Made with ❤️ to help make your life easier
-            <div className='text-gray-700 text-sm mt-2'>v.1.0.4</div>
+            <div className='text-gray-700 text-sm mt-2'>v.{version}</div>
         </div>
       </div>{
 

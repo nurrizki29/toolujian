@@ -19,6 +19,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faExclamationTriangle, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import {version} from "../../package.json";
 
 library.add(fab, faCheckSquare, faCoffee)
 function Dashboard() {
@@ -152,7 +153,7 @@ function Dashboard() {
             </div>
             <div className='mb-6 text-center text-white'>
             Made with ❤️ to help make your life easier
-            <div className='text-text-white text-sm mt-2'>v.1.0.5</div>
+            <div className='text-text-white text-sm mt-2'>v.{version}</div>
         </div>
         </div>
     )
