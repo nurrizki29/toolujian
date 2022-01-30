@@ -6,6 +6,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {sesi} from "../database/datainduk.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopy, faLink } from '@fortawesome/free-solid-svg-icons'
+import ReactGA from 'react-ga';
 
 export default function CardJadwal(props) {
     // onClick handler function for the copy button
@@ -19,14 +20,24 @@ export default function CardJadwal(props) {
         draggable: true,
         progress: undefined,
     }
-    const handleCopyClick = () => {
+    const handleCopyClick = (matkul) => {
+        ReactGA.event({
+            category: 'Penamaan',
+            action: 'Copy Penamaan File',
+            label: matkul
+        })
         {
            toast.success('Penamaan LJU Berhasil disalin',toastOpt );
        }
    }
-    const keLinkLJU = (link) =>{
+    const keLinkLJU = (matkul,link) =>{
         if (link =="") toast.error('Sedang dalam pengembangan',toastOpt)
         else window.open(link)
+        ReactGA.event({
+            category: 'Link LJU',
+            action: 'ke Link LJU',
+            label: matkul
+        })
     }
     let mhs = props.profilMahasiswa;
     let prodi = props.prodi;
@@ -64,14 +75,14 @@ export default function CardJadwal(props) {
                 </div>
                 <div className="flex-shrink-0 w-22 text-right flex flex-col">
                 <div class="flex-1 mb-2">
-                    <CopyToClipboard text={penamaan} onCopy={handleCopyClick}>
+                    <CopyToClipboard text={penamaan} onCopy={()=>{handleCopyClick(jadwal.nama)}}>
                         <button type="button" className="text-xs sm:text-md block w-full bg-blue-600 p-2 rounded-lg text-white font-bold hover:bg-blue-500">
                         <FontAwesomeIcon icon={faCopy} /> Penamaan LJU
                         </button>
                     </CopyToClipboard>
                 </div>
                 <div class="flex-1 ...">
-                    <button type="button" className={classBtnLink} onClick={() => keLinkLJU(linkLJU)}>
+                    <button type="button" className={classBtnLink} onClick={() => keLinkLJU(jadwal.nama,linkLJU)}>
                     <FontAwesomeIcon icon={faLink} /> Link LJU
                     </button>
                 </div>

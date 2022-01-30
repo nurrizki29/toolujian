@@ -20,6 +20,7 @@ import NotFound from './pages/NotFound';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import withPageView from './withPageView';
 
 library.add(fab, faCheckSquare, faCoffee)
 class Header extends React.Component{
@@ -34,12 +35,12 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Login} />
-          <Route exact path="/signout" component={Signout} />
-          <ProtectedRoutes exact path='/dashboard' component={Dashboard} />
-          <Route component={NotFound}/>
+      <BrowserRouter basename='toolujian'>
+        <Switch >
+          <Route exact path="/" component={withPageView(Login)} />
+          <Route exact path="/signout" component={withPageView(Signout)} />
+          <ProtectedRoutes exact path='/dashboard' component={withPageView(Dashboard)} />
+          <Route component={withPageView(NotFound)}/>
         </Switch>
       </BrowserRouter>
     </div>

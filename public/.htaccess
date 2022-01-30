@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+
+
+
+  RewriteEngine On
+
+  RewriteBase /toolujian/
+
+  RewriteRule ^index\.html$ - [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  RewriteCond %{REQUEST_FILENAME} !-l
+
+  RewriteRule . /toolujian/index.html [L]
+
+
+
+</IfModule>
+RewriteCond %{HTTP_HOST} ^toolujian\.gabut\.ga$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.toolujian\.gabut\.ga$
+RewriteRule ^loaderio\-e5e41546afa7ce6ac8bba5740dbc0993\/$ "https\:\/\/gabut\.ga\/loaderio\-e5e41546afa7ce6ac8bba5740dbc0993\.txt" [R=301,L]

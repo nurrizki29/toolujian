@@ -20,6 +20,9 @@ import { faCheckSquare, faCoffee, faExclamationTriangle, faSignOutAlt } from '@f
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import {version} from "../../package.json";
+import ReactGA from 'react-ga';
+;
+
 
 library.add(fab, faCheckSquare, faCoffee)
 function Dashboard() {
@@ -65,7 +68,12 @@ function Dashboard() {
         //function logout
     const logoutHanlder = async () => {
         await fadeIn()
-        cookies.remove('data');
+        ReactGA.event({
+            category: 'Account',
+            action: 'Signout',
+            label: cookies.get("data").nama
+        })
+        cookies.remove('data',{path:'/'});
         history.push('/');
     };
     const reportError = () =>{
@@ -106,6 +114,10 @@ function Dashboard() {
       const jadwalmhs = jadwal.filter(function(list){
         return list.id == profilMahasiswa.kelas.substring(0,1)+dataKelas[0].semester
     })
+    ReactGA.set({
+        dimension1: profilMahasiswa.nama,
+        dimension3: version,
+     });
     console.log(jadwalmhs)
       let nama0 = profilMahasiswa.nama.split(" ")
       let inisial = nama0[0].substring(0, 1).toUpperCase()+nama0[1].substring(0, 1).toUpperCase();
