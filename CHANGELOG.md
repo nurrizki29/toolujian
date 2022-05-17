@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](///compare/v1.0.5...v1.0.6) (2022-05-17)
+
+
+### Features
+
+* New Place 283af33
+
+
+### Bug Fixes
+
+* Fix title page 0ee1721
+
+
+### Tests
+
+* Trying to add IE 71ef59d
+
+
+### Others
+
+* Versi UTS Genap 2022 2e3e057
+
+
+### Build System
+
+* Change package.json ccd4b36
+
 ### 1.0.5 (2022-01-27)
 
 
