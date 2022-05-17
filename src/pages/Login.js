@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import ReCAPTCHA from "react-google-recaptcha";
 import {version} from "../../package.json";
+import ReactGA from 'react-ga';
 
 function Login() {
     const recaptchaRef = React.useRef();
@@ -72,7 +73,12 @@ function Login() {
         })
         console.log(filtered)
         if (filtered.length > 0){
-          cookies.set('data', JSON.stringify(filtered[0]), { path: '/',maxAge:5*24*60*60 })
+          ReactGA.event({
+            category: 'Account',
+            action: 'Login',
+            label: filtered[0].nama
+          });  
+          cookies.set('data', JSON.stringify(filtered[0]), { path: '/',maxAge:14*24*60*60 })
           //redirect to dashboard
           history.push('/dashboard');
         }else{
@@ -86,7 +92,7 @@ function Login() {
         <div className="container mr-auto ml-auto">
             <LoadingPage />
       <div className="relative p-4 sm:p-8 mx-5 sm:mx-auto max-w-2xl bg-gray-50 rounded-xl shadow-2x1 items-center sm:max-w-md">
-      <h2 className=' text-3xl font-bold mb-2 text-blue-500 text-center'>UTS KIT</h2>
+      <h2 className=' text-3xl font-bold mb-2 text-indigo-600 text-center'>UAS KIT</h2>
       <div className="italic font-light font-sans text-center">Dapat digunakan oleh seluruh mahasiswa non-asrama 🎉 </div>
         <form className="mt-4" onSubmit={loginHandler}>
           <div>

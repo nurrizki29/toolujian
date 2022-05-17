@@ -1,8 +1,8 @@
 {
-  "name": "first-app",
-  "version": "1.0.5",
+  "name": "toolujian",
+  "version": "1.0.6",
   "private": true,
-  "homepage": "https://toolujian.gabut.ga",
+  "homepage": "/toolujian/",
   "license": "GPL-3.0-or-later",
   "author": {
     "name": "Mohammad Nur Rizki",
@@ -30,6 +30,7 @@
     "react-cookie": "^4.1.1",
     "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
     "react-google-recaptcha": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -43,7 +44,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "CI=false && craco build",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

@@ -1,0 +1,889 @@
+{
+    "jadwal": [
+      {
+        "id": "A3",
+        "data": [
+          {
+            "nama": "Akuntansi Biaya I",
+            "kode": "AKBI1",
+            "sesi": "3"
+          },
+          {
+            "nama": "Ekonomi Makro",
+            "kode": "Makro",
+            "sesi": "5"
+          },
+          {
+            "nama": "Akuntansi Keuangan Menengah I",
+            "kode": "AKM1",
+            "sesi": "7"
+          },
+          {
+            "nama": "Praktik Akuntansi Keuangan Menengah I",
+            "kode": "PAKM1",
+            "sesi": "9"
+          },
+          {
+            "nama": "Akuntansi Pemerintah I",
+            "kode": "Akpem1",
+            "sesi": "11"
+          },
+          {
+            "nama": "Perpajakan I",
+            "kode": "Perpajakan1",
+            "sesi": "13"
+          }
+        ]
+      },
+      {
+        "id": "A5",
+        "data": [
+          {
+            "nama": "Ekonometrika",
+            "kode": "Metrik",
+            "sesi": "3"
+          },
+          {
+            "nama": "Akuntansi Keuangan Lanjutan I",
+            "kode": "AKL1",
+            "sesi": "5"
+          },
+          {
+            "nama": "Analisis Laporan Keuangan",
+            "kode": "ALK",
+            "sesi": "7"
+          },
+          {
+            "nama": "Teknik Audit Berbantuan Komputer",
+            "kode": "TABK",
+            "sesi": "9"
+          },
+          {
+            "nama": "Sistem Informasi Akuntansi Pemerintah",
+            "kode": "SIAP",
+            "sesi": "11"
+          },
+          {
+            "nama": "Audit Keuangan Sektor Komersial",
+            "kode": "AKSK",
+            "sesi": "13"
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "data": [
+          {
+            "nama": "Hukum Perdata",
+            "kode": "Hperdata",
+            "sesi": "1"
+          },
+          {
+            "nama": "Ekonomi Mikro",
+            "kode": "Mikro",
+            "sesi": "3"
+          },
+          {
+            "nama": "Manajemen",
+            "kode": "Manajemen",
+            "sesi": "5"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara",
+            "kode": "PPKN",
+            "sesi": "7"
+          },
+          {
+            "nama": "Perpajakan I",
+            "kode": "Perpajakan1",
+            "sesi": "9"
+          },
+          {
+            "nama": "Praktik Pengantar Akuntansi I",
+            "kode": "Ppengakun",
+            "sesi": "11"
+          },
+          {
+            "nama": "Pengantar Akuntansi I",
+            "kode": "Pengakun1",
+            "sesi": "13"
+          },
+          {
+            "nama": "Etika dan Anti Korupsi",
+            "kode": "Etikor",
+            "sesi": "15"
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "data": [
+          {
+            "nama": "Statistika Terapan",
+            "kode": "Statter",
+            "sesi": "3"
+          },
+          {
+            "nama": "Hukum Keuangan Negara",
+            "kode": "HKN",
+            "sesi": "5"
+          },
+          {
+            "nama": "Akuntansi Keuangan Menengah I",
+            "kode": "AKM1",
+            "sesi": "7"
+          },
+          {
+            "nama": "Praktik Akuntansi Keuangan Menengah I",
+            "kode": "PAKM1",
+            "sesi": "9"
+          },
+          {
+            "nama": "Akuntansi Pemerintah II",
+            "kode": "Akpem2",
+            "sesi": "11"
+          },
+          {
+            "nama": "Sistem Informasi Akuntansi",
+            "kode": "SIA",
+            "sesi": "13"
+          },
+          {
+            "nama": "Akuntansi Biaya II",
+            "kode": "AKBI2",
+            "sesi": "15"
+          },
+          {
+            "nama": "Keuangan Publik",
+            "kode": "Keupublik",
+            "sesi": "17"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "data": [
+          {
+            "nama": "Penganggaran Berbasis Kinerja",
+            "kode": "PBK",
+            "sesi": "2"
+          },
+          {
+            "nama": "Hubungan Keuangan Pusat, Daerah dan Desa",
+            "kode": "Hubkeudes",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengelolaan Kas Negara",
+            "kode": "Kasneg",
+            "sesi": "6"
+          },
+          {
+            "nama": "Pengelolaan Keuangan BLU",
+            "kode": "PKBLU",
+            "sesi": "8"
+          },
+          {
+            "nama": "Pengelolaan Utang dan Hibah",
+            "kode": "PUH",
+            "sesi": "10"
+          },
+          {
+            "nama": "Praktik Aplikasi Pembayaran dan Settlement",
+            "kode": "PAPS",
+            "sesi": "12"
+          },
+          {
+            "nama": "Statistika Keuangan",
+            "kode": "Statkeu",
+            "sesi": "14"
+          },
+          {
+            "nama": "Akuntansi Pemerintah Pusat",
+            "kode": "APPus",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "data": [
+          {
+            "nama": "Manajemen Kekayaan Negara Dipisahkan (KND) II",
+            "kode": "MKND2",
+            "sesi": "2"
+          },
+          {
+            "nama": "Penilaian Usaha I",
+            "kode": "Penilus1",
+            "sesi": "4"
+          },
+          {
+            "nama": "Manajemen Barang Milik Negara (BMN) II",
+            "kode": "MBMN2",
+            "sesi": "6"
+          },
+          {
+            "nama": "Aplikasi Sistem Informasi Manajemen Kekayaan Negara (SIM KN) I",
+            "kode": "APSIMKN",
+            "sesi": "8"
+          },
+          {
+            "nama": "Penilaian Aset dan Properti III",
+            "kode": "PAP3",
+            "sesi": "10"
+          },
+          {
+            "nama": "Manajemen Lelang",
+            "kode": "Manlelang",
+            "sesi": "12"
+          },
+          {
+            "nama": "Manajemen Kekayaan Negara Lainnya (KNL)",
+            "kode": "KNL",
+            "sesi": "14"
+          }
+        ]
+      },
+      {
+        "id": "E3",
+        "data": [
+          {
+            "nama": "Pengantar Hukum Pajak",
+            "kode": "PHP",
+            "sesi": "4"
+          },
+          {
+            "nama": "Keuangan Publik",
+            "kode": "Keupublik",
+            "sesi": "6"
+          },
+          {
+            "nama": "Ketentuan Umum Perpajakan",
+            "kode": "KUP",
+            "sesi": "8"
+          },
+          {
+            "nama": "Akuntansi Biaya",
+            "kode": "Akbi",
+            "sesi": "10"
+          },
+          {
+            "nama": "Pajak Penghasilan",
+            "kode": "Pph",
+            "sesi": "12"
+          },
+          {
+            "nama": "Akuntansi Biaya",
+            "kode": "Akbi",
+            "sesi": "14"
+          },
+          {
+            "nama": "Pajak Bumi dan Bangunan",
+            "kode": "PBB",
+            "sesi": "16"
+          },
+          {
+            "nama": "Pajak Pertambahan Nilai",
+            "kode": "PPN",
+            "sesi": "18"
+          }
+        ]
+      },
+      {
+        "id": "E5",
+        "data": [
+          {
+            "nama": "Penelitian Ilmu Sosial",
+            "kode": "Penilsos",
+            "sesi": "2"
+          },
+          {
+            "nama": "Komunikasi Publik",
+            "kode": "Kompub",
+            "sesi": "4"
+          },
+          {
+            "nama": "Akuntansi Keuangan Lanjutan",
+            "kode": "AKL",
+            "sesi": "6"
+          },
+          {
+            "nama": "Manajemen dan Proses Bisnis Wajib Pajak",
+            "kode": "MPBWP",
+            "sesi": "8"
+          },
+          {
+            "nama": "Statistika",
+            "kode": "Stat",
+            "sesi": "10"
+          },
+          {
+            "nama": "Akuntansi Perpajakan",
+            "kode": "Akper",
+            "sesi": "12"
+          },
+          {
+            "nama": "Lab Pajak Penghasilan Pot Put",
+            "kode": "Potput",
+            "sesi": "14"
+          },
+          {
+            "nama": "Penagihan dan Sengketa Pajak",
+            "kode": "PenagSP",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "F3",
+        "data": [
+          {
+            "nama": "Budaya Nusantara dan Pengembangan Kepribadian",
+            "kode": "BudnusPK",
+            "sesi": "2"
+          },
+          {
+            "nama": "Ekonomi Mikro",
+            "kode": "Mikro",
+            "sesi": "6"
+          },
+          {
+            "nama": "Manajemen",
+            "kode": "Manajemen",
+            "sesi": "8"
+          },
+          {
+            "nama": "Akuntansi Biaya",
+            "kode": "Akbi",
+            "sesi": "10"
+          },
+          {
+            "nama": "Hukum Perdata",
+            "kode": "Hperdata",
+            "sesi": "12"
+          },
+          {
+            "nama": "Akuntansi Keuangan Menengah I",
+            "kode": "AKM1",
+            "sesi": "14"
+          },
+          {
+            "nama": "Pajak Bumi dan Bangunan",
+            "kode": "PBB",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "F5",
+        "data": [
+          {
+            "nama": "Penelitian Ilmu Sosial",
+            "kode": "Penilsos",
+            "sesi": "2"
+          },
+          {
+            "nama": "Komunikasi Publik",
+            "kode": "Kompub",
+            "sesi": "4"
+          },
+          {
+            "nama": "Akuntansi Keuangan Lanjutan",
+            "kode": "AKL",
+            "sesi": "6"
+          },
+          {
+            "nama": "Manajemen dan Proses Bisnis Wajib Pajak",
+            "kode": "MPBWP",
+            "sesi": "8"
+          },
+          {
+            "nama": "Statistika",
+            "kode": "Stat",
+            "sesi": "10"
+          },
+          {
+            "nama": "Akuntansi Perpajakan",
+            "kode": "Akper",
+            "sesi": "12"
+          },
+          {
+            "nama": "Lab Pajak Penghasilan Pot Put",
+            "kode": "Potput",
+            "sesi": "14"
+          }
+        ]
+      },
+      {
+        "id": "G5",
+        "data": [
+          {
+            "nama": "Pendataan dan Penilaian Masal",
+            "kode": "PPM",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengantar Penilaian Bisnis",
+            "kode": "Penisbis",
+            "sesi": "6"
+          },
+          {
+            "nama": "Penilaian Properti Komersial",
+            "kode": "PPK",
+            "sesi": "8"
+          },
+          {
+            "nama": "Penilaian dalam Pengelolaan Barang Milik Negara",
+            "kode": "PPBMN",
+            "sesi": "10"
+          },
+          {
+            "nama": "Hukum Perusahaan dan Bisnis",
+            "kode": "HukPB",
+            "sesi": "12"
+          },
+          {
+            "nama": "Penilaian Mesin dan Peralatan",
+            "kode": "PMP",
+            "sesi": "14"
+          },
+          {
+            "nama": "Penilaian Sumber Daya Alam I",
+            "kode": "PSDA1",
+            "sesi": "16"
+          },
+          {
+            "nama": "Perpajakan II: Pajak Pertambahan Nilai dan Ketentuan Umum Perpajakan",
+            "kode": "Perpajakan2",
+            "sesi": "18"
+          }
+        ]
+      },
+      {
+        "id": "H6",
+        "data": [
+          {
+            "nama": "Pendataan dan Penilaian Masal",
+            "kode": "PPM",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengantar Penilaian Bisnis",
+            "kode": "Penisbis",
+            "sesi": "6"
+          },
+          {
+            "nama": "Penilaian Properti Komersial",
+            "kode": "PPK",
+            "sesi": "8"
+          }
+        ]
+      },
+      {
+        "id": "I9",
+        "data": [
+          {
+            "nama": "Audit Sektor Publik",
+            "kode": "ASP",
+            "sesi": "4"
+          },
+          {
+            "nama": "Teori Akuntansi",
+            "kode": "Teorakun",
+            "sesi": "6"
+          },
+          {
+            "nama": "Audit Sistem Informasi",
+            "kode": "AuditSI",
+            "sesi": "8"
+          },
+          {
+            "nama": "Sistem Informasi Akuntansi Pemerintah",
+            "kode": "SIAP",
+            "sesi": "10"
+          },
+          {
+            "nama": "Audit Forensik dan Investigasi",
+            "kode": "Forensik",
+            "sesi": "12"
+          },
+          {
+            "nama": "Akuntansi Keuangan Kontemporer",
+            "kode": "AKK",
+            "sesi": "14"
+          },
+          {
+            "nama": "Sistem Pengendalian Manajemen",
+            "kode": "SPM",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "J5",
+        "data": [
+          {
+            "nama": "Statistika dan Metodologi Penelitian",
+            "kode": "Statmp",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengantar Intelijen Kepabeanan dan Cukai",
+            "kode": "PIKC",
+            "sesi": "6"
+          },
+          {
+            "nama": "Fasilitas Perdagangan Internasional",
+            "kode": "FPInter",
+            "sesi": "8"
+          },
+          {
+            "nama": "Identifikasi dan Klasifikasi Barang III",
+            "kode": "IdenKB3",
+            "sesi": "10"
+          },
+          {
+            "nama": "Kepabeanan Internasional",
+            "kode": "Kepabint",
+            "sesi": "12"
+          },
+          {
+            "nama": "Manajemen Risiko Kepabeanan dan Cukai",
+            "kode": "MRKC",
+            "sesi": "14"
+          },
+          {
+            "nama": "Fasilitas Kepabeanan",
+            "kode": "FasKep",
+            "sesi": "16"
+          },
+          {
+            "nama": "Teknis Pemeriksaan Barang",
+            "kode": "TekPB",
+            "sesi": "18"
+          }
+        ]
+      },
+      {
+        "id": "K3",
+        "data": [
+          {
+            "nama": "Pengantar Ilmu Ekonomi",
+            "kode": "PIE",
+            "sesi": "2"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara",
+            "kode": "PPKN",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengantar Akuntansi I",
+            "kode": "Pengakun1",
+            "sesi": "6"
+          },
+          {
+            "nama": "Penegakan Hukum Kepabeanan dan Cukai I",
+            "kode": "PHKC1",
+            "sesi": "8"
+          },
+          {
+            "nama": "Identifikasi dan Klasifikasi Barang III",
+            "kode": "IdenKB3",
+            "sesi": "10"
+          },
+          {
+            "nama": "Perundang-undangan Cukai",
+            "kode": "UUC",
+            "sesi": "12"
+          },
+          {
+            "nama": "Perundang-undangan Kepabeanan",
+            "kode": "UUK",
+            "sesi": "14"
+          },
+          {
+            "nama": "Fasilitas Kepabeanan",
+            "kode": "FasKep",
+            "sesi": "16"
+          },
+          {
+            "nama": "Hukum Perdata",
+            "kode": "Hperdata",
+            "sesi": "18"
+          }
+        ]
+      },
+      {
+        "id": "L7",
+        "data": [
+          {
+            "nama": "Ekonomi Makro",
+            "kode": "Makro",
+            "sesi": "2"
+          },
+          {
+            "nama": "Ekonomi Mikro",
+            "kode": "Mikro",
+            "sesi": "4"
+          },
+          {
+            "nama": "Metodologi Penelitian",
+            "sesi": "6"
+          },
+          {
+            "nama": "Manajemen Strategi Sektor Publik",
+            "sesi": "8"
+          },
+          {
+            "nama": "Hukum Administrasi Negara",
+            "sesi": "10"
+          },
+          {
+            "nama": "Matematika Ekonomi",
+            "sesi": "12"
+          },
+          {
+            "nama": "Teori Kepabeanan dan Cukai",
+            "sesi": "14"
+          },
+          {
+            "nama": "Penganggaran Sektor Publik I",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "M7",
+        "data": [
+          {
+            "nama": "Ekonomi Makro",
+            "kode": "Makro",
+            "sesi": "2"
+          },
+          {
+            "nama": "Ekonomi Mikro",
+            "kode": "Mikro",
+            "sesi": "4"
+          },
+          {
+            "nama": "Metodologi Penelitian",
+            "sesi": "6"
+          },
+          {
+            "nama": "Manajemen Strategi Sektor Publik",
+            "sesi": "8"
+          },
+          {
+            "nama": "Hukum Administrasi Negara",
+            "sesi": "10"
+          },
+          {
+            "nama": "Matematika Ekonomi",
+            "sesi": "12"
+          },
+          {
+            "nama": "Manajemen Risiko Keuangan Negara",
+            "sesi": "14"
+          },
+          {
+            "nama": "Akuntansi Keuangan",
+            "sesi": "16"
+          }
+        ]
+      },
+      {
+        "id": "N7",
+        "data": [
+          {
+            "nama": "Sistem Informasi Manajemen",
+            "sesi": "4"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara II",
+            "sesi": "6"
+          },
+          {
+            "nama": "Akuntansi Manajemen",
+            "sesi": "8",
+            "undefined": "7.5625"
+          },
+          {
+            "nama": "Pengantar Ilmu Ekonomi",
+            "kode": "PIE",
+            "sesi": "9",
+            "undefined": "150.0625"
+          },
+          {
+            "nama": "Matematika Ekonomi",
+            "sesi": "12",
+            "undefined": "52.5625"
+          },
+          {
+            "nama": "Seminar Akuntansi Kontemporer",
+            "sesi": "14",
+            "undefined": "85.5625"
+          },
+          {
+            "nama": "Sistem Pengendalian Manajemen Sektor Publik",
+            "sesi": "16",
+            "undefined": "45.5625"
+          },
+          {
+            "undefined": "33.0625"
+          },
+          {
+            "undefined": "18.0625"
+          },
+          {
+            "undefined": "22.5625"
+          },
+          {
+            "undefined": "3.0625"
+          },
+          {
+            "undefined": "0.0625"
+          },
+          {
+            "undefined": "60.0625"
+          },
+          {
+            "undefined": "14.0625"
+          },
+          {
+            "undefined": "492.25"
+          },
+          {
+            "undefined": "44.75"
+          }
+        ]
+      },
+      {
+        "id": "O1",
+        "data": [
+          {
+            "nama": "Agama",
+            "sesi": "3"
+          },
+          {
+            "nama": "Pengantar Teknologi Informasi dan Komputer",
+            "sesi": "5"
+          },
+          {
+            "nama": "Bahasa Indonesia",
+            "kode": "Bindo",
+            "sesi": "7"
+          },
+          {
+            "nama": "Pengantar Ilmu Ekonomi",
+            "kode": "PIE",
+            "sesi": "9"
+          },
+          {
+            "nama": "Pancasila",
+            "kode": "Pancasila",
+            "sesi": "11"
+          },
+          {
+            "nama": "Pengantar Akuntansi I",
+            "kode": "Pengakun1",
+            "sesi": "13"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara I",
+            "kode": "PPKN1",
+            "sesi": "15"
+          },
+          {
+            "nama": "Pengantar Ilmu Hukum",
+            "sesi": "17"
+          }
+        ]
+      },
+      {
+        "id": "P1",
+        "data": [
+          {
+            "nama": "Agama",
+            "sesi": "3"
+          },
+          {
+            "nama": "Pengantar Teknologi Informasi dan Komputer",
+            "sesi": "5"
+          },
+          {
+            "nama": "Bahasa Indonesia",
+            "kode": "Bindo",
+            "sesi": "7"
+          },
+          {
+            "nama": "Pengantar Ilmu Ekonomi",
+            "kode": "PIE",
+            "sesi": "9"
+          },
+          {
+            "nama": "Pancasila",
+            "kode": "Pancasila",
+            "sesi": "11"
+          },
+          {
+            "nama": "Pengantar Akuntansi I",
+            "kode": "Pengakun1",
+            "sesi": "13"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara I",
+            "kode": "PPKN1",
+            "sesi": "15"
+          },
+          {
+            "nama": "Pengantar Ilmu Hukum",
+            "sesi": "17"
+          }
+        ]
+      },
+      {
+        "id": "Q1",
+        "data": [
+          {
+            "nama": "Agama",
+            "sesi": "3"
+          },
+          {
+            "nama": "Pengantar Teknologi Informasi dan Komputer",
+            "sesi": "5"
+          },
+          {
+            "nama": "Bahasa Indonesia",
+            "kode": "Bindo",
+            "sesi": "7"
+          },
+          {
+            "nama": "Pengantar Ilmu Ekonomi",
+            "kode": "PIE",
+            "sesi": "9"
+          },
+          {
+            "nama": "Pancasila",
+            "kode": "Pancasila",
+            "sesi": "11"
+          },
+          {
+            "nama": "Pengantar Akuntansi I",
+            "kode": "Pengakun1",
+            "sesi": "13"
+          },
+          {
+            "nama": "Pengantar Pengelolaan Keuangan Negara I",
+            "kode": "PPKN1",
+            "sesi": "15"
+          },
+          {
+            "nama": "Pengantar Ilmu Hukum",
+            "sesi": "17"
+          }
+        ]
+      }
+    ]
+  }
