@@ -92,7 +92,7 @@ function Login() {
         <div className="container mr-auto ml-auto">
             <LoadingPage />
       <div className="relative p-4 sm:p-8 mx-5 sm:mx-auto max-w-2xl bg-gray-50 rounded-xl shadow-2x1 items-center sm:max-w-md">
-      <h2 className=' text-3xl font-bold mb-2 text-indigo-600 text-center'>UAS KIT</h2>
+      <h2 className=' text-3xl font-bold mb-2 text-indigo-600 text-center'>UTS KIT</h2>
       <div className="italic font-light font-sans text-center">Dapat digunakan oleh seluruh mahasiswa non-asrama 🎉 </div>
         <form className="mt-4" onSubmit={loginHandler}>
           <div>
