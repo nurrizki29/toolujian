@@ -205,7 +205,7 @@ function Dashboard() {
         </button>
       </div>
       <div className="mb-6 text-center text-white">
-        Made with ❤️ to help make your life easier
+        Made to help make your life easier
         <div className="text-text-white text-sm mt-2">v.{version}</div>
       </div>
     </div>
