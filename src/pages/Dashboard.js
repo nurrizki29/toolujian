@@ -126,7 +126,6 @@ function Dashboard() {
     dimension3: version,
     dimension4: dataProdi[0].nama,
   });
-  console.log(jadwalmhs);
   let nama0 = profilMahasiswa.nama.split(" ");
   let inisial =
     nama0[0].substring(0, 1).toUpperCase() +

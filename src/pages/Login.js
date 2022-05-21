@@ -8,6 +8,7 @@ import { useHistory } from "react-router";
 import axios from "axios";
 import Cookies from "universal-cookie";
 import { mahasiswa } from "../database/datainduk.json";
+import email from "../database/email.json";
 import LoadingPage from "../components/LoadingPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
@@ -70,8 +71,12 @@ function Login() {
     let filtered = mahasiswa.filter(function (entry) {
       return entry.npm === npm;
     });
+    let emailMhs = email.filter(function (entry) {
+      return entry.npm === npm;
+    });
     console.log(filtered);
     if (filtered.length > 0) {
+      if (emailMhs.length > 0) filtered[0].email = emailMhs[0].email;
       ReactGA.event({
         category: "Account",
         action: "Login",
