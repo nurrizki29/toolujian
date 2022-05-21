@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](///compare/v1.0.6...v1.1.0) (2022-05-21)
+
+
+### Features
+
+* Add presensi cf66a95
+
+
+### CI
+
+* Remove Codecov 143dd61
+
+
+### Code Refactoring
+
+* Change title 36f4820
+* Change title in title 796983d
+
 ### [1.0.6](///compare/v1.0.5...v1.0.6) (2022-05-17)
 
 
