@@ -4,7 +4,7 @@
 
   RewriteEngine On
 
-  RewriteBase /toolujian/
+  RewriteBase /
 
   RewriteRule ^index\.html$ - [L]
 
@@ -14,7 +14,7 @@
 
   RewriteCond %{REQUEST_FILENAME} !-l
 
-  RewriteRule . /toolujian/index.html [L]
+  RewriteRule . /index.html [L]
 
 
 
