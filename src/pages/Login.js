@@ -15,6 +15,7 @@ import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 import ReCAPTCHA from "react-google-recaptcha";
 import { version } from "../../package.json";
 import ReactGA from "react-ga";
+import InputMask from "react-input-mask";
 
 function Login() {
   const recaptchaRef = React.useRef();
@@ -60,7 +61,7 @@ function Login() {
   }, []);
 
   const classNormal =
-    "text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none ";
+    "text-md block text-center px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none ";
   const classError = "border-red-500";
   const loginHandler = async (e) => {
     recaptchaRef.current.reset();
@@ -113,16 +114,17 @@ function Login() {
             >
               NPM
             </label>
-            <input
+            <InputMask
+              mask="9999999999"
               className={
                 validation !== "" ? classNormal + classError : classNormal
               }
               id="npm"
               value={npm}
               onChange={(e) => setNPM(e.target.value)}
+              alwaysShowMask={false}
               placeholder="Masukkan NPM"
-              type="number"
-            ></input>
+            ></InputMask>
             {validation !== "" && (
               <div className="text-red-500 italic font-medium">
                 Data tidak ditemukan
