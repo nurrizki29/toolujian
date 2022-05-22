@@ -207,6 +207,9 @@ function Dashboard() {
       <div className="mb-6 text-center text-white">
         Made to help make your life easier
         <div className="text-text-white text-sm mt-2">v.{version}</div>
+        <div className="text-text-white text-sm mt-2">
+          <a href="https://nuriz.id">nuriz.id</a>
+        </div>
       </div>
     </div>
   );

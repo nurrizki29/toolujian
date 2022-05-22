@@ -63,7 +63,10 @@ export default function CardJadwal(props) {
       {props.dataJadwal.map((jadwal) => {
         let linkLJU =
           kelas.link +
-          "?entry." +
+          kelas.link.indexOf("?") +
+          "&" +
+          "?" +
+          "&entry." +
           kelas["entry-nama"] +
           "=" +
           encodeURI(mhs.nama) +
