@@ -138,7 +138,7 @@ export default function CardJadwal(props) {
               </div>
             </div>
             <div className="flex-shrink-0 w-22 text-right flex flex-col">
-              <div class="flex-1 mb-2">
+              <div className="flex-1 mb-2">
                 <button
                   type="button"
                   className={classBtnPresensi}
@@ -149,7 +149,7 @@ export default function CardJadwal(props) {
                   <FontAwesomeIcon icon={faUser} /> Presensi
                 </button>
               </div>
-              <div class="flex-1 mb-2">
+              <div className="flex-1 mb-2">
                 <CopyToClipboard
                   text={penamaan}
                   onCopy={() => {
@@ -164,7 +164,7 @@ export default function CardJadwal(props) {
                   </button>
                 </CopyToClipboard>
               </div>
-              <div class="flex-1 ...">
+              <div className="flex-1 ...">
                 <button
                   type="button"
                   className={classBtnLink}
