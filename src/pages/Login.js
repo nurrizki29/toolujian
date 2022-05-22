@@ -155,8 +155,11 @@ function Login() {
           </div>
         </form>
         <div className="mt-4 text-center text-gray-700">
-          Made with ❤️ to help make your life easier
+          Made to help make your life easier
           <div className="text-gray-700 text-sm mt-2">v.{version}</div>
+          <div className="text-gray-700 text-sm mt-2">
+            <a href="https://nuriz.id">nuriz.id</a>
+          </div>
         </div>
       </div>
       {}
