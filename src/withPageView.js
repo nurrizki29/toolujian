@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 import { version } from "../package.json";
 
 ReactGA.initialize(
-  window.location.hostname.includes("d3pajak19")
+  window.location.hostname.includes("gabut")
     ? "UA-216458994-4"
     : "UA-216458994-1",
   {
