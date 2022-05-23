@@ -53,6 +53,11 @@ export default function CardJadwal(props) {
     if (mhs.email) paramEmail = `emailPkn=${mhs.email}&`;
     let param =
       paramEmail + `namaMahasiswa=${encodeURI(mhs.nama)}&nim=${mhs.npm}`;
+    ReactGA.event({
+      category: "Presensi",
+      action: "ke Link Presensi",
+      label: "Sesi " + sesi,
+    });
     window.open(url + param);
   };
   let mhs = props.profilMahasiswa;

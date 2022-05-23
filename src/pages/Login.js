@@ -160,7 +160,18 @@ function Login() {
           Made to help make your life easier
           <div className="text-gray-700 text-sm mt-2">v.{version}</div>
           <div className="text-gray-700 text-sm mt-2">
-            <a href="https://nuriz.id">nuriz.id</a>
+            <a
+              href="https://nuriz.id"
+              onClick={() => {
+                ReactGA.event({
+                  category: "External",
+                  action: "ke Nuriz.ID",
+                  label: "Guest",
+                });
+              }}
+            >
+              nuriz.id
+            </a>
           </div>
         </div>
       </div>
